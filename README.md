@@ -7,6 +7,8 @@
 
 已确保 `code/` 中脚本默认从 `data/` 读取，并将输出写回 `data/`。
 
+请注意配置您自己的Deepseek API Key 在`code/job_clustering.py`中
+
 ## 目录说明
 
 ### 1) 代码目录 `code/`

@@ -17,7 +17,7 @@ The workflow includes the following stages:
 4. Job clustering and salary analysis
 5. Interactive visualization with Streamlit and static report generation
 
-![Project cover](images/dashboard-cover.png)
+
 
 The data analysis package is now located in `analysis/`, and the dashboard is located in `career_mind_dashboard/`.
 
@@ -31,6 +31,7 @@ Job data is cleaned, salary fields are normalized, experience is quantified, and
 
 ![Data cleaning](images/data-cleaning.png)
 
+![Streamlit UI](images/streamlit-ui.png)
 ---
 
 ## 2. Folder structure
@@ -92,8 +93,7 @@ streamlit run app.py --server.port 8888 --server.headless true
 
 The dashboard loads processed data from `career_mind_dashboard/data/` if present. If those files are missing, it can also fall back to processed outputs from `analysis/`, `analysis/clustered_output/`, and `analysis/regression_output/`.
 
-![Streamlit UI](images/streamlit-ui.png)
-
+![Project cover](images/dashboard-cover.png)
 ---
 
 ## 4. Static report location

@@ -96,6 +96,7 @@ The dashboard loads processed data from `career_mind_dashboard/data/` if present
 ![Project cover](images/dashboard-cover.png)
 
 Project was mainly built in Chinese; you may need to use browser translation.
+
 ![Project cover-translated](images/dashboard-cover-translated.png)
 ---
 

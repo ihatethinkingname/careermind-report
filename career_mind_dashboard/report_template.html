@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ report_title }}</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 20mm 16mm 18mm 16mm;
+    }
+
+    @page :first {
+      margin-top: 45mm;
+    }
+
+    body {
+      margin: 0;
+      color: #111;
+      font-family: "Times New Roman", serif;
+      font-size: 10.5pt;
+      line-height: 1.6;
+    }
+
+    .title-block {
+      text-align: center;
+      margin-bottom: 18pt;
+      padding: 8pt 0 9pt 0;
+      border-bottom: none;
+    }
+
+    .title-block p {
+      text-indent: 0;
+      text-align: center;
+      text-justify: auto;
+    }
+
+    .title-block h1 {
+      font-size: 20pt;
+      margin: 0 0 6pt 0;
+      line-height: 1.3;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      white-space: pre-wrap;
+    }
+
+    .subtitle {
+      margin: 0;
+      font-size: 11pt;
+      color: #2d2d2d;
+      font-weight: 600;
+    }
+
+    .meta {
+      margin-top: 9pt;
+      font-size: 9.5pt;
+      color: #444;
+    }
+
+    .meta-time {
+      margin-top: 2pt;
+    }
+
+    .paper {
+      max-width: 172mm;
+      margin: 0 auto;
+    }
+
+    section {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      margin: 0 0 12pt 0;
+    }
+
+    h2 {
+      font-size: 16pt;
+      font-weight: 700;
+      margin: 0 0 4pt 0;
+      line-height: 1.3;
+    }
+
+    .overview-title {
+      text-align: center;
+    }
+
+    p {
+      margin: 0 0 16pt 0;
+      text-indent: 2em;
+      text-align: justify;
+      text-justify: inter-ideograph;
+      white-space: pre-wrap;
+    }
+
+    .keywords {
+      text-indent: 0;
+      margin-top: -4pt;
+      margin-bottom: 20pt;
+      font-size: 10pt;
+    }
+
+    .figure {
+      border: 1px solid #999;
+      padding: 8pt;
+      margin: 8pt 0 4pt 0;
+      text-indent: 0;
+      font-size: 9pt;
+      color: #555;
+      text-align: center;
+      min-height: 160pt;
+      box-sizing: border-box;
+      background: #fafafa;
+    }
+
+    .figure img {
+      width: 100%;
+      display: block;
+    }
+
+    .figure-note {
+      margin-top: 3pt;
+      text-indent: 0;
+      font-size: 8.5pt;
+      color: #555;
+    }
+
+    .references p {
+      margin-bottom: 4pt;
+    }
+
+    .appendix-title {
+      margin-top: 10pt;
+    }
+
+    .fig-caption {
+      margin-top: 4pt;
+      font-size: 9pt;
+      color: #333;
+      text-indent: 0;
+      text-align: center;
+    }
+
+    .fig-meaning {
+      margin-top: 2pt;
+      font-size: 9pt;
+      color: #444;
+      text-indent: 0;
+      line-height: 1.45;
+      text-align: left;
+      text-justify: auto;
+    }
+
+    .second-page-start {
+      break-before: page;
+      page-break-before: always;
+    }
+
+    .second-page-compact p {
+      margin-bottom: 8pt;
+    }
+
+    .second-page-compact .figure img {
+      max-height: 165pt;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <div class="paper">
+    <div class="title-block">
+      <h1>{{ report_title }}</h1>
+      <p class="subtitle">{{ report_subtitle }}</p>
+      <p class="meta">{{ author_names }}</p>
+      <p class="meta meta-time">报告生成时间：{{ generated_at }}</p>
+    </div>
+
+    <section>
+      <h2 class="overview-title">概述</h2>
+      <p>{{ overview }}</p>
+      <p class="keywords"><strong>关键词：</strong>{{ keywords }}</p>
+    </section>
+
+    <section>
+      <h2>1. 引言</h2>
+      <p>{{ introduction }}</p>
+    </section>
+
+    <section class="second-page-start second-page-compact">
+      <h2>2. 地域视角就业情况分析</h2>
+      {% if figures|length > 0 %}
+        <div class="figure">
+          <img src="{{ figures[0].src }}" alt="{{ figures[0].name }}" />
+        </div>
+        <p class="fig-caption">{{ figures[0].title }}</p>
+        <p class="fig-meaning">图示意义：{{ figures[0].meaning }}</p>
+      {% endif %}
+      <p>{{ analysis_geography }}</p>
+    </section>
+
+    <section class="second-page-compact">
+      <h2>3. 学历视角就业分析</h2>
+      {% if figures|length > 1 %}
+      <div class="figure">
+        <img src="{{ figures[1].src }}" alt="{{ figures[1].name }}" />
+      </div>
+      <p class="fig-caption">{{ figures[1].title }}</p>
+      <p class="fig-meaning">图示意义：{{ figures[1].meaning }}</p>
+      {% endif %}
+      <p>{{ analysis_education }}</p>
+    </section>
+
+    <section>
+      <h2>4. 行业视角就业分析</h2>
+      {% if industry_overview_src %}
+      <div class="figure">
+        <img src="{{ industry_overview_src }}" alt="industry overview" />
+      </div>
+      <p class="fig-caption">图3 行业岗位规模分布</p>
+      <p class="fig-meaning">图示意义：展示各行业岗位样本量分布，用于识别“需求规模”与后续“薪资中枢”之间是否同向变化。</p>
+      {% endif %}
+      <p>{{ analysis_industry }}</p>
+      {% if figures|length > 2 %}
+      <div class="figure">
+        <img src="{{ figures[2].src }}" alt="{{ figures[2].name }}" />
+      </div>
+      <p class="fig-caption">{{ figures[2].title }}</p>
+      <p class="fig-meaning">图示意义：{{ figures[2].meaning }}</p>
+      {% endif %}
+      {% if analysis_industry_exp_skill %}
+      <p>{{ analysis_industry_exp_skill }}</p>
+      {% endif %}
+      {% if cluster_example_src %}
+      <div class="figure">
+        <img src="{{ cluster_example_src }}" alt="cluster example" />
+      </div>
+      <p class="fig-caption">图5 行业聚类示例卡片（源自 cluster_profiles.csv）</p>
+      <p class="fig-meaning">图示意义：该示例展示单一行业内不同聚类簇在样本量、薪资区间、核心技能、经验与其他要求上的结构差异，用于辅助理解聚类结果的业务含义。</p>
+      {% if cluster_skill_analysis %}
+      <p>{{ cluster_skill_analysis }}</p>
+      {% endif %}
+      {% endif %}
+    </section>
+
+    <section>
+      <h2>5. 深度讨论</h2>
+      {% for para in discussion_paragraphs %}
+      <p>{{ para }}</p>
+      {% endfor %}
+    </section>
+
+    <section>
+      <h2>6. 反思与局限</h2>
+      <p>{{ limitations }}</p>
+    </section>
+
+    <section>
+      <h2>7. 结论</h2>
+      <p>{{ conclusion }}</p>
+    </section>
+
+    <section class="references">
+      <h2>参考文献</h2>
+      {% for ref in references %}
+      <p>{{ loop.index }}) {{ ref }}</p>
+      {% endfor %}
+    </section>
+
+    <section>
+      <h2 class="appendix-title">附录：数据概况与方法论</h2>
+      <p>{{ appendix_methodology }}</p>
+    </section>
+
+  </div>
+</body>
+</html>

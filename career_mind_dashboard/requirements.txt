@@ -1,0 +1,7 @@
+streamlit>=1.22.0
+pandas>=1.4
+numpy
+plotly
+altair
+scikit-learn
+pypinyin>=0.50.0

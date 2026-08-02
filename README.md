@@ -1,68 +1,107 @@
-# CareerMind 分析包（big_bag）
+﻿# CareerMind Data Analysis and Visualization
 
-这个目录用于 GitHub 展示，按“代码 / 数据”分离：
+This repository has been reorganized to separate the core analysis package from the Streamlit dashboard.
 
-- `code/`：核心分析脚本（数据处理、聚类、回归）。
-- `data/`：输入数据与分析产出数据。
+- `analysis/` contains the original `ihatethinkingname/careermind-report` repository content, including analysis scripts and data artifacts.
+- `career_mind_dashboard/` contains the Streamlit visualization application and the generated static report.
 
-已确保 `code/` 中脚本默认从 `data/` 读取，并将输出写回 `data/`。
+---
 
-请注意配置您自己的Deepseek API Key 在`code/job_clustering.py`中
+## 1. Overview
 
-## 目录说明
+The workflow includes the following stages:
 
-### 1) 代码目录 `code/`
+1. Data collection and preprocessing
+2. Job description cleaning and integration
+3. Feature engineering and vectorization
+4. Job clustering and salary analysis
+5. Interactive visualization with Streamlit and static report generation
 
-- `temp.py`  
-  从 `data/jobs().csv` 读取原始职位数据，提取 `other_requirement` 字段，输出 `data/jobs(1).csv`。
+![Project cover](images/dashboard-cover.png)
 
-- `etl.py`  
-  从 `data/jobs(1).csv` 读取，完成经验数字化、技能合并、薪资标准化、向量化，输出：
-  - `data/job_vec.csv`
-  - `data/skill_merge_preview.csv`
+The data analysis package is now located in `analysis/`, and the dashboard is located in `career_mind_dashboard/`.
 
-- `job_clustering.py`  
-  从 `data/job_vec.csv` 读取，按行业聚类画像，输出到：
-  - `data/clustered_output/cluster_profiles.csv`
-  - `data/clustered_output/clustered_*.csv`
-  - 以及聚类提示词与缓存文件（同目录下的 `*.txt`、`llm_cache.json`）
+![Analysis flow](images/analysis-flow.png)
 
-- `salary_regression.py`  
-  从 `data/job_vec.csv` 读取，按行业做薪资分析，输出到：
-  - `data/regression_output/exp_curve.csv`
-  - `data/regression_output/skill_impact.csv`
-  - `data/regression_output/skill_value_robust.csv`
+This project uses cleaned job posting data to derive cluster profiles, salary curves, and skill importance.
 
-### 2) 数据目录 `data/`
+![Salary analysis](images/salary-analysis.png)
 
-#### 核心输入数据
+Job data is cleaned, salary fields are normalized, experience is quantified, and high-correlation skills are merged for modeling.
 
-- `jobs().csv`：原始数据表。  
-- `jobs(1).csv`：`temp.py` 处理后数据（新增 `other_requirement`）。  
-- `job_vec.csv`：`etl.py` 处理后向量化主表。  
-- `skill_merge_preview.csv`：`etl.py` 生成的高相关技能合并预览表。  
+![Data cleaning](images/data-cleaning.png)
 
-#### 聚类输出 `data/clustered_output/`
+---
 
-- `cluster_profiles.csv`：各行业聚类画像摘要。  
-- `clustered_*.csv`：分行业聚类结果（含组内聚类 ID）。  
+## 2. Folder structure
 
-#### 回归输出 `data/regression_output/`
+### `analysis/`
 
-- `exp_curve.csv`：大样本行业（>=70）经验-薪资曲线。  
-- `skill_impact.csv`：大样本行业技能系数（回归结果）。  
-- `skill_value_robust.csv`：中样本行业（10~69）稳健技能价值估计。  
+This folder contains the relocated original remote repository structure:
 
-## 推荐执行顺序（不要求现在运行）
+- `analysis/code/` - core analysis scripts
+  - `temp.py` - preprocess raw job postings and extract requirements
+  - `etl.py` - transform and vectorize job data
+  - `job_clustering.py` - perform industry clustering and profile generation
+  - `salary_regression.py` - model salary by skills and experience
+- `analysis/data/` - raw and processed data artifacts
+  - `jobs().csv` - original job dataset
+  - `jobs(1).csv` - cleaned data with extracted requirements
+  - `job_vec.csv` - transformed job vectors
+  - `skill_merge_preview.csv` - skill merging suggestions
+  - `clustered_output/` - industry cluster profiles and results
+  - `regression_output/` - salary curve and skill impact outputs
+- `analysis/README.md` - original remote repository README
 
-在 `big_bag/code` 下按顺序运行：
+### `career_mind_dashboard/`
 
-1. `python temp.py`
-2. `python etl.py`
-3. `python job_clustering.py`
-4. `python salary_regression.py`
+This folder contains the Streamlit application and static PDF report:
 
-## 说明
+- `app.py` - Streamlit dashboard entry point
+- `data_bridge.py` - dashboard data loader with fallback logic
+- `requirements.txt` - Python dependencies for the dashboard
+- `CareerMind_Report.pdf` - generated static report
+- `data/` - optional dashboard data files for direct loading
 
-- 本目录为展示整理版本，未改动 `big_bag` 外文件。  
-- 如果需要完全复现实验，请确保 Python 依赖和本地模型文件可用（如 sentence-transformers / gensim / sklearn / statsmodels）。  
+---
+
+## 3. How to start the Streamlit dashboard
+
+Use a Python environment and install the required dependencies.
+
+From the repository root:
+
+```powershell
+cd career_mind_dashboard
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+streamlit run app.py --server.port 8501 --server.headless true
+```
+
+Then open the URL:
+
+```text
+http://localhost:8501
+```
+
+If port `8501` is already in use, choose another port:
+
+```powershell
+streamlit run app.py --server.port 8888 --server.headless true
+```
+
+The dashboard loads processed data from `career_mind_dashboard/data/` if present. If those files are missing, it can also fall back to processed outputs from `analysis/`, `analysis/clustered_output/`, and `analysis/regression_output/`.
+
+![Streamlit UI](images/streamlit-ui.png)
+
+---
+
+## 4. Static report location
+
+The generated PDF report is available in the dashboard folder:
+
+- `career_mind_dashboard/CareerMind_Report.pdf`
+
+The core analysis package also contains a copy of the report in:
+
+- `analysis/CareerMind_Report.pdf`

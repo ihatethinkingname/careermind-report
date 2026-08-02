@@ -1,0 +1,449 @@
+job_id,job_title,industry_name,salary_min,salary_max,salary_unit,salary_period,experience_required,education_required,status,publish_date,collected_at,company_name,city,job_benefits,job_description,industry_standard,industry_group,job_skills,other_requirement,exp_numeric,salary_min_norm,salary_max_norm,avg_salary,skills_list,merged_job_skills,cluster
+168317944,博士后研究人员 （导师：翁莹，Alain Chong),教育/培训/院校,26.9,26.9,万,年,无需经验,博士,在线,2026-04-15 11:57:26,2026-04-15 19:01:35,宁波诺丁汉大学,宁波,"五险一金,定期体检,员工旅游,周末双休,带薪年假,补充医疗保险,节日福利,高温补贴,住房补贴","职位详情：
+Prof. Alain Chong and Prof. Ying Weng are seeking an outstanding Postdoctoral Research Fellow to join the newly established Postdoctoral Research Station in Business Administration at the University of Nottingham Ningbo China, contributing to the development of the university’s research agenda.
+Your Responsibility
+Your key responsibilities include:
+61 Design and Develop Research: Formulate clear research objectives and contribute to the development of proposals for individual and collaborative projects, applying established and emerging methodologies to advance the research agenda.
+61 Conduct and Analyze Research: Collect, manage, and rigorously analyze complex datasets; interpret results; critically evaluate existing literature; and generate original insights that align with project goals.
+61 Disseminate Findings: Prepare high-quality manuscripts for submission to leading journals, present research at national and international conferences, and contribute to the visibility and impact of the research team.
+61 Secure Funding: Identify opportunities and contribute to the preparation of competitive grant applications to national and international funding bodies.
+61 Build Networks and Collaborations: Engage with internal colleagues and external partners (academic, clinical, and industry) to exchange ideas, explore opportunities for collaboration, and establish partnerships that strengthen research outcomes.
+About You
+61 Qualifications: PhD awarded within 3 years in business administration, computer science, information systems, data science, biomedical engineering, or a related discipline.
+61 Programming & Data Skills: Strong proficiency in Python (e.g., NumPy, Pandas, scikit-learn, PyTorch, TensorFlow); additional experience with R, MATLAB, or Julia is an advantage.
+61 Machine Learning Expertise: Familiarity with supervised/unsupervised learning (regression, classification, clustering), ensemble methods, and deep learning architectures (CNNs, RNNs). Experience with explainable AI (e.g., SHAP, LIME) and radiomics preferred.
+61 Quantitative Analysis: Demonstrated ability to handle multimodal datasets, conduct statistical analysis, and apply predictive modeling and validation techniques.
+61 Research & Publication: Skilled at critically reviewing literature, designing rigorous studies, and producing publications for high-impact journals.
+61 Collaboration & Communication: Excellent oral and written English communication skills, with the ability to present technical findings clearly. Knowledge of Chinese is a plus. Ability to work both independently and within multidisciplinary teams.
+61 Practical Experience: Prior hands-on research in healthcare, medical imaging, AI applications, or digital innovation will be an asset.
+About Us
+Join a unique British University in China. Join a unique British University in China. University of Nottingham Ningbo China (UNNC) was the 1st Sino-foreign university to open its doors in China. Located in Ningbo, this award winning campus offering a UK-style education has grown to establish a student body of over 9,000 in just 20 years.
+About Postdoctoral research station in Business Administration. Postdoctoral research station in Business Administration was approved to establish in Nov 2023. It is UNNC’s 1st postdoctoral research station, and its founding deeply aligns with the national strategic needs in promoting talent cultivation and innovation as well as that of UNNC. UNNC’s undergraduate programme of Business Administration was launched in 2004 and the doctoral programme in 2009. The subject has been listed among the world’s top academic subjects by Shanghai Ranking for four consecutive years. The discipline of Business Administration has also established teaching and research platforms at multiple levels and carried out in-depth industry university research cooperation with world renowned enterprises such as Microsoft and Amazon. In the future, UNNC will incorporate the development of the postdoctoral research station into the agenda of the university to provide talent support in efforts to promote scientific and technological innovation as well as economic and social development.
+About the Research Team. Prof. Alain Chong is Vice Provost for Global Engagement and Partnerships and Chair Professor of Information Systems at the University of Nottingham Ningbo China. His research explores digital innovation, disruptive technologies, and their impact on business and society. He serves as Co-Editor-in-Chief of Industrial Management & Data Systems and as Associate Editor for Information & Management and Decision Support Systems. Prof. Ying Weng is Course Director for Computer Science with Artificial Intelligence, Professor in Computer Science. She obtained PhD in Signal & Information Processing at Chinese Academy of Sciences, and Postdoctor at Imperial College London. She received the Newton Research Collaboration Award by UK Royal Academy of Engineering, Best Paper Award at International Conference on Automation & Computing, and 1st Place Prize in the international ASNR-MICCAI BraTS Challenges. She is with membership of Editorial Board for Expert Systems with Applications, Elsevier.
+About the Project. This project aims to advance neuro-oncology by building a comprehensive multimodal brain tumor database that integrates imaging, patient records, and digital pathology. Using explainable artificial intelligence (XAI) techniques, the system enables non-invasive determination of tumor pathology—such as WHO grading—directly from radiomic features captured during routine medical imaging. This reduces reliance on invasive biopsies and accelerates diagnostic processes. Beyond classification, the platform combines multimodal inputs to provide personalized, evidence-based treatment recommendations. By delivering transparent and interpretable AI insights, the project not only improves diagnostic accuracy but also supports clinical decision-making and reduces the cognitive workload for physicians. Ultimately, the system contributes to more standardized and efficient precision medicine in brain tumor care.
+Candidates are expected to submit a research proposal that builds on this project summary.
+Your Remuneration, Benefits and Support
+You will be offered a fixed term contract initially with University of Nottingham Ningbo China for 2 years . You will be offered a minimum annual salary package of RMB 269,906 with competitive benefits package. Postdoctoral Research Fellow is also able to apply RMB50,000 research funding after they start their research.
+How to Apply
+Applicants should submit an application via our on-line application system before Oct 15, 2025. Only on-line applications will be accepted. Referees will be contacted prior to interview and interviews will take place in Ningbo China.
+
+Applications should include but are not limited to the following:
+61 A cover letter
+61 An up-to-update CV includes academic and research achievement list
+61 A Research proposal (Please refer to the attached project summary)
+
+年龄要求：
+16-35岁
+
+职能类别：
+科研人员",教育/培训院校,教育,"信息科技, 计算机科学, 大数据分析",Your Responsibility；61 Build Networks and Collaborations:；Engage with internal colleagues and external partners (academic；and industry) to exchange ideas；explore opportunities for collaboration；61 Qualifications:；or a related discipline.；61 Machine Learning Expertise:；Familiarity with supervised/unsupervised learning (regression；ensemble methods；61 Collaboration & Communication:；Excellent oral and written English communication skills；with the ability to present technical findings clearly. Knowledge of Chinese is a plus. Ability to work both independently and within multidisciplinary teams.；61 Practical Experience:；and their impact on business and society. He serves as Co-Editor-in-Chief of Industrial Management & Data Systems and as Associate Editor for Information & Management and Decision Support Systems. Prof. Ying Weng is Course Director for Computer Science with Artificial Intelligence；and 1st Place Prize in the international ASNR-MICCAI BraTS Challenges. She is with membership of Editorial Board for Expert Systems with Applications；Benefits and Support；16-35岁,0.0,22416.666666666664,22416.666666666664,22416.666666666664,"['信息科技', '计算机科学', '大数据分析']","信息科技,计算机科学,大数据分析",2
+171611849,课件制作,院校,6.0,7.0,千,月,1年及以上,本科,在线,2026-04-15 12:27:46,2026-04-15 19:07:54,济南迁赫教育科技有限公司,济南,"五险一金,绩效奖金,年终奖金","职位详情：
+【工作内容】
+- 负责根据教学大纲和课程内容，独立完成课件的策划、设计与制作；
+- 与教学团队沟通协作，确保课件内容准确、逻辑清晰、视觉美观；
+- 不断优化课件结构与呈现方式，提升教学效果与学习体验；
+- 参与课件素材的收集与整理，保证资料的完整性与适用性。
+【任职要求】
+- 具备良好的文字表达能力和审美能力，对课件设计有基本了解；
+- 熟悉PPT、Keynote等课件制作工具，能独立完成课件制作；
+- 工作认真细致，具备较强的学习能力和责任心；
+- 无工作经验要求，欢迎应届毕业生或转行人员投递。
+
+职能类别：
+培训产品开发",教育/院校,教育,"ppt, 课件设计, keynote, 课件制作",工作认真细致；具备较强的学习能力和责任心；欢迎应届毕业生或转行人员投递。,0.1,6000.0,7000.0,6500.0,"['ppt', '课件设计', 'keynote', '课件制作']","ppt,课件设计,keynote,课件制作",2
+171612062,资产管理员,院校,5.0,6.0,千,月,1年及以上,本科,在线,2026-04-15 12:51:25,2026-04-15 19:08:53,济南迁赫教育科技有限公司,青岛,"五险一金,绩效奖金,年终奖金","职位详情：
+【工作内容】
+- 负责公司各类资产的登记、盘点及日常管理，确保资产信息准确无误；
+- 协助完成资产采购、调拨、报废等流程的文档处理与跟进；
+- 定期与财务部门核对资产数据，确保账实一致；
+- 维护资产管理系统，及时更新资产状态和相关信息。
+【任职要求】
+- 本科及以上学历，专业不限，接受应届毕业生或无相关工作经验者；
+- 具备良好的沟通能力和责任心，工作细致认真；
+- 熟悉办公软件操作，具备基础的数据处理能力；
+- 有较强的学习能力，能够快速适应岗位工作内容。
+
+职能类别：
+资产管理",教育/院校,教育,"办公软件, 管理, 盘点, 调拨, 报废, 资产采购, 资产管理系统, 资产登记, 数据处理, 资产数据",本科及以上学历；接受应届毕业生或无相关工作经验者；工作细致认真；有较强的学习能力,0.1,5000.0,6000.0,5500.0,"['办公软件', '管理', '盘点', '调拨', '报废', '资产采购', '资产管理系统', '资产登记', '数据处理', '资产数据']","办公软件,管理,盘点,调拨,报废,资产采购,资产管理系统,资产登记,数据处理,资产数据",2
+145991368,GIS工程师,学术/科研,5.0,10.0,千,月,2年,本科,在线,2026-04-15 09:40:57,2026-04-15 19:13:30,广州市城市更新规划设计研究院有限公司,广州·越秀区,"五险一金,年终奖金,定期体检,带薪年假,补充医疗保险,企业年金","职位详情：
+岗位职责：
+1、负责基础数据调查项目地形成图处理，地图制图，数据建库、入库工作；
+2、负责项目相关成果质量检查；
+3、协助编写项目技术设计书、项目总结报告、方案等文档；
+4、完成领导交代的其他工作。
+
+任职资格：
+1、本科及以上学历，测绘工程、地理信息工程、土地资源管理、摄影测量与遥感及相关专业，有GIS数据处理、建库工作经验者优先；
+2、熟悉1:500、1:2000地形成图国标要求、成图流程、CAD及GIS地图制图；
+3、具有良好的沟通表达能力、团队协作能力、工作责任心与积极主动性；
+4、熟悉ArcGIS、MapGIS、AutoCAD、南方CASS、Office等软件操作平台，能使用基本的语法或函数批量数据处理、分析；
+5、持C1驾照，能正常在广州驾驶车辆优先；
+6、具有优秀文本编写能力，如编写项目方案、各类PPT演示文稿等。
+
+职能类别：
+软件工程师",其他行业,教育,GIS,1、本科及以上学历；6、具有优秀文本编写能力,0.2,5000.0,10000.0,7500.0,['GIS'],GIS,2
+170898894,AI SEO 专员,教育/培训/院校,9.0,10.0,千,月,2年及以上,本科,在线,2026-04-15 12:56:34,2026-04-15 19:15:47,广州莱佛士设计培训学院,厦门·思明区,,"职位详情：
+岗位职责：
+职位：AI SEO 专员
+1、 深入研究 AI 搜索算法逻辑与内容偏好，制定适配 AI 搜索习惯的优化策略，确保内
+容高效触达目标用户。
+
+2、运用AI工具搜索引擎优化（如SEO插件、内容分析平台）进行关键词研究、竞争对手分析，制定超越传统思维的SEO策略。
+
+3、深入理解并实践 “大模型优化”（如Deepseek、腾选元宝、Kimi、文心一言、豆包等主流平台）确保我们的品牌和学校相关信息内容能被主流AI模型优先收录和推荐，能够做到用户利用大模型工具搜索，即可生成准确的投放内容，基于目标用户需求进行精准关键词布局与内容优化，搭建从 AI 搜索场景到官网的引流路径，引导用户连接到公司的营销账户（官网、微信公众号等社交平台）
+
+4、运用AI工具搜索引擎优化（如SEO插件、内容分析平台）进行关键词研究、竞争对手分析，制定超越传统思维的SEO策略。并且配合社交媒体同事进行各大社交媒体平台（如微信、微博、抖音等）的账号搭建与内容投放，为大模型持续维护正确的内容资源库检索基础
+任职条件：
+
+1、 熟悉 Deepseek、kimi、豆包等主流 AI 搜索平台的内容生成机制、排名规则及优化
+逻辑，能精准把握 AI 搜索的内容需求点。
+
+2、拥有 AIGC（人工智能内容生成） 内容优化相关经验，了解如何通过内容设计与优化让 AI 搜索平台更偏好展示目标内容。
+
+3、熟悉Photoshop、Ai、CDR、Flash等常见工作软件，熟练掌握网站页面、图文设计制作技巧；
+
+4、具备 2 年以上 SEO 优化相关工作经验，拥有 AI 搜索平台（如Deepseek、kimi、豆包等）优化成功案例者优先，需提供过往案例证明（含优化前后流量/排名变化、搜索舆情优化等关键成果）。
+
+薪资参考：9-10K
+筛选面试：
+线上面试，通过后试用期6个月，居家办公
+
+年龄要求：
+24-29岁
+
+职能类别：
+SEO/SEM",教育/培训院校,教育,"抖音, ai, 微博, seo, 搜索引擎优化, 内容优化, 社交媒体平台, 内容投放, 关键词布局, 账号搭建",薪资参考：,0.2,9000.0,10000.0,9500.0,"['抖音', 'ai', '微博', 'seo', '搜索引擎优化', '内容优化', '社交媒体平台', '内容投放', '关键词布局', '账号搭建']","抖音,ai,微博,seo,搜索引擎优化,内容优化,社交媒体平台,内容投放,关键词布局,账号搭建",2
+171608212,儿童康复师,培训机构,3.0,6.0,千,月,1年及以上,大专,在线,2026-04-15 10:55:35,2026-04-15 19:26:48,临沂心语教育咨询有限公司,临沂,"五险一金,餐饮补贴,单双休","职位详情：
+岗位职责
+1、从事儿童康复教学或常规小组课教学
+2、制定和实施康复计划和康复方案
+3、对康复教学进行记录及各类教学报告
+4、做好与家长教学沟通，答疑解惑并及时反馈家长意见
+任职要求：
+1、具有耐心、爱心、责任心、包容心、团队合作意识和吃苦耐劳的精神。
+2、喜欢孩子，尊重孩子，热爱特教事业。
+3、富有想象力、亲和力、有良好的与家长沟通交流能力。
+4、康复专业，有过儿童康复、特殊教育、工作经验者优先。
+
+职能类别：
+理疗师",教育/培训院校,教育,"康复计划, 康复方案, 教学报告, 教学沟通, 儿童康复, 特教, 特殊教育, 康复",热爱特教事业。；3、富有想象力、亲和力、有良好的与家长沟通交流能力。；4、康复专业,0.1,3000.0,6000.0,4500.0,"['康复计划', '康复方案', '教学报告', '教学沟通', '儿童康复', '特教', '特殊教育', '康复']","康复计划,康复方案,教学报告,教学沟通,儿童康复,特教,特殊教育,康复",2
+171617204,运营保障部 客户服务总监,学术/科研,1.5,2.0,万,月,5年及以上,本科,在线,2026-04-15 15:20:00,2026-04-15 20:27:43,中国食品发酵工业研究院有限公司,北京·朝阳区,"五险一金,定期体检,带薪年假,节日福利,周末双休","职位详情：
+职位描述：
+1. 搭建客服团队（招聘、培训、排班、绩效考核）；
+2. 制定客服话术体系与服务SOP，确保功能性食品功效宣称符合广告法与平台规则；
+3. 建立客诉分级响应机制，主导重大客诉与危机事件处理；
+4. 监控客服核心指标（CSAT、响应时效、解决率、差评率），持续优化服务体验；
+5. 搭建会员管理体系，通过分层运营提升复购率与LTV；
+6. 收集用户反馈，联动产品、运营、供应链推动体验改进。
+
+任职要求：
+1. 3年以上电商客服团队管理经验，有食品/保健品/大健康类目背景优先；
+2. 熟悉天猫、京东、抖音等平台规则，了解功能性食品合规话术边界；
+3. 具备从0到1搭建客服体系或标准化SOP的经验；
+4. 数据敏感，能通过客服数据发现问题并推动解决；
+5. 抗压能力强，具备优秀的跨部门沟通与危机处理能力。
+
+职能类别：
+客服经理",其他行业,教育,"sop, 招聘, 食品, 天猫, 京东, 平台规则, 危机处理",5. 抗压能力强；具备优秀的跨部门沟通与危机处理能力。,0.5,15000.0,20000.0,17500.0,"['sop', '招聘', '食品', '天猫', '京东', '平台规则', '危机处理']","sop,招聘,食品,天猫,京东,平台规则,危机处理",1
+171576458,风电检修工程师,学术/科研,4.5,9.0,千,月,无需经验,大专,在线,2026-04-15 04:07:21,2026-04-15 21:48:37,张家口拓卓新能源有限公司,张家口,"专业培训,业绩奖金","职位详情：
+风电机组辅控系统安装及调试
+风力发电机组装设智能控制系统
+
+职能类别：
+机电工程师",其他行业,教育,"风电机组辅控系统安装, 风电机组辅控系统调试, 风力发电机组装设, 智能控制系统",,0.0,4500.0,9000.0,6750.0,"['风电机组辅控系统安装', '风电机组辅控系统调试', '风力发电机组装设', '智能控制系统']","风电机组辅控系统安装,风电机组辅控系统调试,风力发电机组装设,智能控制系统",2
+171580828,主播,院校,4.0,6.0,千,月,无需经验,大专,在线,2026-04-15 04:04:10,2026-04-15 21:48:57,阜阳市颍州区新华外国语学校,阜阳,"五险一金,补充医疗保险,餐饮补贴,通讯补贴,专业培训,绩效奖金,弹性工作,定期体检","职位详情：
+【工作内容】
+- 负责线上直播内容的策划与执行，包括学校介绍、互动交流等；
+- 保持良好的镜头表现力和语言表达能力，提升直播间氛围与观众参与度；
+- 配合团队完成直播脚本撰写、流程安排及相关宣传推广工作。
+【任职要求】
+- 具备良好的语言表达能力和亲和力，有主播、主持或相关经验者优先；
+- 拥有一定的镜头感和应变能力，能适应不同直播场景；
+- 热爱直播行业，具备较强的责任心和团队协作精神；
+- 熟悉小红书、抖音、短视频等各类平台运营，可独立完成简单视频剪辑工作。
+
+职能类别：
+主播/主持人",教育/院校,教育,"宣传推广, 主播, 线上直播, 镜头表现力, 互动交流",拥有一定的镜头感和应变能力,0.0,4000.0,6000.0,5000.0,"['宣传推广', '主播', '线上直播', '镜头表现力', '互动交流']","宣传推广,主播,线上直播,镜头表现力,互动交流",2
+171595296,机械设计工程师,学术/科研,1.2,2.0,万,月,5年及以上,本科,在线,2026-04-15 04:04:17,2026-04-15 21:51:13,苏州津仁智能科技有限公司,苏州,"五险一金,餐饮补贴,节日福利,带薪年假","职位详情：
+【工作内容】
+- 根据要求进行非标设备开发和配件选型，汽车行业非标设备经验者优先；
+- 独立完成非标机械设备设计，包括结构设计、标准件选型、设计图纸出图，BOM整理申购；
+- 指导装配、调试、并解决设备生产组装和调试过程中的技术问题；
+- 负责非标设备的全过程追踪，包括非标设备的设计到成品及调试阶段的异常指导工作；
+- 编写相关的产品验收标准及技术协议等文档。
+【任职要求】
+- 本科及以上学历，机械制造及其自动化或机电一体化等相关专业；
+- 工作经验5年以上，汽车行业非标自动化产线经验3年以上；
+- 熟悉压装、拧紧、焊接、点胶和测试等基础工艺；
+- 熟练常用标准件的选型，并熟练使用Solidworks和AUTOCAD；
+- 逻辑清晰，稳定踏实，有良好的沟通能力；
+- 有一定英文基础者优先考虑。
+
+职能类别：
+机械工程师",其他行业,教育,"测试, 焊接, 点胶, 标准件选型, 压装, 拧紧",本科及以上学历；稳定踏实,0.5,12000.0,20000.0,16000.0,"['测试', '焊接', '点胶', '标准件选型', '压装', '拧紧']","测试,焊接,点胶,标准件选型,压装,拧紧",1
+171019494,会计/财务教师,教育/培训/院校,1.0,2.0,万,月,2年及以上,硕士,在线,2026-04-15 09:20:12,2026-04-15 22:29:30,苏州工业园区西交教育培训中心,苏州·苏州工业园区,"五险一金,定期体检,通讯补贴,节假日福利","职位详情：
+岗位职责：
+1、根据学院要求，按教学计划负责教授会计类、经济类等相关课程，包括但不限于金融、会计、市场营销、管理学等；
+2、根据学生的需求和反馈，调整教学方法和授课内容，确保教学质量；
+3、与学生进行定期沟通，解答学生的疑问，并提供学习上的指导和支持。
+
+任职资格：
+1、海归硕士及以上学历，相关专业毕业；
+2、英语能力在雅思总分7.5及以上（或具备同等水平）；
+3、能够进行全英文授课，具备2年以上相关工作经验；
+4、热爱教育事业，有责任心，熟悉现代教学方法，具备良好的沟通与表达能力。
+
+职能类别：
+讲师/助教",教育/培训院校,教育,"金融, 会计, 经济, 财务",1、海归硕士及以上学历；相关专业毕业；4、热爱教育事业；有责任心,0.2,10000.0,20000.0,15000.0,"['金融', '会计', '经济', '财务']","金融,会计,经济,财务",2
+171603699,体育学院教师,教育/培训/院校,12.0,24.0,万,年,无需经验,硕士,在线,2026-04-15 09:11:57,2026-04-15 22:34:26,广东培正学院,广州·花都区,"五险一金,定期体检,年终奖金,交通补贴,餐饮补贴,午餐补贴","职位详情：
+请前往人事处招聘系统注册和投递申请！！！
+一、岗位需求：
+1.羽毛球、篮球、排球、足球、武术（舞龙舞狮）5人；
+要求：
+1、要求羽毛球、篮球、排球、足球、武术（舞龙舞狮）等相关专业，硕士及以上；
+2、硕士需取得国家一级运动员证书或专业队运动员退役；
+3、要求应聘者为未退休人员；
+4、分批进行面试，若录用则要求尽快到岗。
+二、与我校签订劳动合同者薪酬范围：
+专任教师：
+博士A岗 30～45万元/年（薪酬和工作任务具体一人一议）
+博士B岗 20～23万元/年（薪酬和工作任务具体一人一议）
+博士C岗 16万元/年以上
+硕士 12～14万元/年
+2.福利待遇：
+（1）提供20-130平米教师公寓租住，配置空调、热水器、床、衣柜、椅子等生活设施；
+（2）享受五险一金，符合广州市入户条件的人员，学校可协助办理人才引进，迁入学校集体户；
+（3）享受工作日午餐补贴、免费校园网络、免费使用健身设施、免费健康体检；
+（4）享受带薪寒暑假；
+（5）享受科研奖励和配套立项和成果奖励（详见学校科研处网站）；
+（6）工作日有校车早中晚往返广州市中心，早晚往返花都区市中心，和固定车次往返地铁9号飞鹅岭站地铁口；
+（7）学校具有职称自主评审权，按照国家规定，为符合条件的教师认定高校教师资格证及评聘职称。
+三、应聘方式：
+暂不在此网站接收简历，请登录人事处的招聘系统，注册个人账户，完善个人简历信息后，即可应聘意向岗位。
+
+年龄要求：
+25-60岁
+
+职能类别：
+体育老师",教育/培训院校,教育,"教师, 篮球, 羽毛球, 足球, 排球, 武术, 视觉传达设计, 数字媒体艺术, 艺术",硕士及以上；2、硕士需取得国家一级运动员证书或专业队运动员退役；3、要求应聘者为未退休人员；若录用则要求尽快到岗。；二、与我校签订劳动合同者薪酬范围：；专任教师：；博士A岗 30～45万元/年（薪酬和工作任务具体一人一议）；博士B岗 20～23万元/年（薪酬和工作任务具体一人一议）；博士C岗 16万元/年以上；硕士 12～14万元/年,0.0,10000.0,20000.0,15000.0,"['教师', '篮球', '羽毛球', '足球', '排球', '武术', '视觉传达设计', '数字媒体艺术', '艺术']","教师,篮球,羽毛球,足球,排球,武术,视觉传达设计,数字媒体艺术,艺术",2
+161526902,兼职语文老师,教育/培训/院校,300.0,300.0,元,天,1年及以上,大专,在线,2026-04-16 15:45:36,2026-04-17 08:44:25,上海兴慧教育信息咨询有限公司,上海·浦东新区,,"职位详情：
+上课时间：每周五晚18:00-20:00
+班级：三年级语文
+
+任职要求：
+形象阳光，课堂活泼；
+有小学班课授课经验。
+
+职能类别：
+语文老师",教育/培训院校,教育,兼职,课堂活泼,0.1,9000.0,9000.0,9000.0,['兼职'],兼职,2
+171641521,市场招生与宣传负责人,培训机构,7.0,8.0,千,月,3年及以上,大专,在线,2026-04-16 15:29:03,2026-04-17 09:03:17,西安阳光德瑞教育软件科技有限公司,西安·雁塔区,,"职位详情：
+一、招生策略与转化
+1. 渠道拓展：负责B端合作学校（中小学）的关系维护与开发，推动研学项目入校宣讲、家长说明会等活动的落地执行。
+2. 招生转化：设计家长从“意向→咨询→报名→缴费”的全链路转化策略，优化话术、物料及报名流程，提升各环节转化率。
+3. 活动策划：策划并执行线上线下招生活动（如：线下说明会、线上直播答疑、往期学员分享会、早鸟团购等），直接对招生人数和营收负责。
+
+二、品牌宣传与内容
+1. 内容矩阵：搭建并运营公司自媒体矩阵（公众号、视频号、小红书、抖音等），产出研学路线介绍、家长见证、学员Vlog、安全纪实等内容。
+2. 品牌物料：制作招生简章、路线手册、宣讲PPT、H5邀请函、海报等全套宣传物料，确保品牌形象统一且有吸引力。
+3. 口碑运营：收集并包装往期学员/家长的反馈案例，运营家长社群，提升转介绍和复购率。
+
+三、市场分析与竞品研究
+1. 跟踪国际教育行业动态及竞品（其他研学机构）的定价策略、产品亮点、营销动作，为公司产品迭代和定价提供依据。
+2. 通过数据分析（渠道来源、转化率、退费原因等）持续优化市场投放策略。
+
+四、团队管理（如有下属）
+带领市场/新媒体/设计等内部或外包团队，分配任务、把控进度、考核绩效。
+
+【任职要求】
+1. 三年以上教育行业（国际教育、研学、留学、营地教育优先）市场/招生/品牌相关经验。
+2. 至少1年以上团队管理经验（或作为项目负责人独立负责过完整招生周期）。
+3. 熟悉K12阶段家长心理与决策逻辑，能设计打动家长的内容与活动。
+4. 具备优秀的文案能力（能写招生推文、产品介绍）和基础的审美/设计把关能力。
+5. 熟悉线上投放逻辑（如有微信朋友圈/抖音/小红书投放经验更佳），会看基础数据（ROI、转化率、获客成本）。
+6. 具备线下活动执行能力（如百人规模的家长说明会、校园宣讲会）。
+7. 沟通能力强，能对接学校老师、机构内部产品/运营团队、外部供应商
+
+职能类别：
+招生老师",教育/培训院校,教育,"招生, 数据分析, 团队管理, 活动策划, 市场分析, 教育行业, 海报, 品牌宣传, 渠道拓展, 产品介绍",,0.3,7000.0,8000.0,7500.0,"['招生', '数据分析', '团队管理', '活动策划', '市场分析', '教育行业', '海报', '品牌宣传', '渠道拓展', '产品介绍']","招生,数据分析,团队管理,活动策划,市场分析,教育行业,海报,品牌宣传,渠道拓展,产品介绍",1
+171639504,AI算法工程师,学术/科研,7.0,14.0,千,月,1-5年,本科,在线,2026-04-16 14:41:33,2026-04-17 09:12:49,香港理工大学深圳研究院,杭州·拱墅区,"五险一金,年终奖金,绩效奖金,带薪年假,弹性工作,周末双休","职位详情：
+岗位职责：
+负责行业专属模型的训练优化、知识增强与工程化落地，推动AI技术在真实业务场景中的规模化应用。
+一、大模型微调与优化
+1.负责开源大模型（如 Qwen、ChatGLM、DeepSeek 等）的微调与优化
+2.熟悉 SFT 流程，理解 RLHF 原理
+3.掌握参数高效微调（PEFT）方法，如 LoRA 等
+4.解决训练过程中的显存瓶颈、loss 不收敛等问题
+5.提升模型在行业场景中的准确率与泛化能力
+二、行业模型与知识增强构建
+1.构建行业知识库与RAG系统
+2.设计知识结构与数据清洗流程
+3.实现模型与知识库联动
+4.支撑智能问答与检索系统落地
+三、算法研发与落地
+1.参与计算机视觉或多模态算法研发（YOLO 等）
+2.根据业务需求设计并优化算法方案
+3.参与模型部署与推理优化（ONNX/TensorRT 优先）
+四、技术预研
+1.跟踪 MoE、量化技术、Agent 等前沿方向
+2.输出技术调研报告
+3.推动技术能力升级
+
+任职要求：
+1.本科及以上学历，计算机/AI/数学等相关专业
+2.1-5年AI算法经验
+3.至少1年大模型微调经验
+4.熟练使用 PyTorch
+5.熟悉 HuggingFace 等模型工具链
+6.熟练使用 Python、理解 SFT / PEFT 微调流程
+7.有行业模型或RAG系统构建经验、有CV算法落地经验（YOLO/REID等）优先
+
+职能类别：
+算法工程师",其他行业,教育,"计算机, 数学, ai, 数据清洗, 模型, 技术预研, 计算机视觉, lora, 算法研发, ai算法",1.本科及以上学历,0.3,7000.0,14000.0,10500.0,"['计算机', '数学', 'ai', '数据清洗', '模型', '技术预研', '计算机视觉', 'lora', '算法研发', 'ai算法']","计算机,数学,ai,数据清洗,模型,技术预研,计算机视觉,lora,算法研发,ai算法",1
+171639009,直播主播/直播助理,教育/培训/院校,6.0,10.0,千,月,无需经验,本科,在线,2026-04-16 14:45:56,2026-04-17 09:18:04,成都望子成龙培训学校有限公司,成都,"餐补,五险一金,全勤奖","职位详情：
+望子成龙教育科技集团，于1998年成立，是致力于学前教育、中小学学历教育、成都望子成龙学校、玉垒中学、都江堰育才中学、动力岛体适能、麦卡赛机器人编程、望子成龙图书出版中心、诠能围棋、长颈兔美术等。
+17位特级教师领衔，上百名命题研究专家一起组成了望子成龙教育科学研究院，研究总结出七步高效法，让学生锁定高分，圆梦名校。同时，由望子成龙教研团队精心编写，四川辞书出版社出版的数十类中小学教辅书和课外书籍，深受学生和家长的追捧。薪酬福利：基本薪资+全勤奖+直播津贴+五险一金+工作餐或餐补等。
+工作内容：
+负责在直播平台上直播，介绍课程、介绍升学信息和家长互动。
+任职资格：
+1、本科及以上学历，不限专业，经验不限；
+2、热爱教育工作，责任心强。
+3、无需经验，提供带薪培训！！
+现场面试:
+1、星期二至星期日，任意一天下午14:30，可到武侯祠大街266号华达商城17楼(新华文轩楼上)参加现场面试。
+2、出发前请先通过平台投递简历，随身携带 笔。
+3、地铁3号线/5号线/10号线高升桥站D口出，从D口旁边的停车场入口进华达商城。
+
+职能类别：
+直播销售",教育/培训院校,教育,直播主播,1、本科及以上学历；2、热爱教育工作；责任心强。；任意一天下午14:30,0.0,6000.0,10000.0,8000.0,['直播主播'],直播主播,2
+103369243,高中数学老师,教育/培训/院校,6.0,8.0,千,月,1年,本科,在线,2026-04-16 10:22:39,2026-04-17 10:18:09,苏州市吴中区西浦附属学校,苏州,"五险一金,补充医疗保险,餐饮补贴,定期体检,年终奖金","职位详情：
+（***、数学教育专业，三年以上教学经验）
+优秀在职教师：45周岁以下，本科以上学历，热爱教育，品德高尚，身体健康，开拓创新和团队合作意识强。具备相应学段的教师资格证。具有优秀的教学业绩，市级以上评优课获得者、优秀班主任以及具有各种专项特长（如模联、机器人辅导）的优先。特级教师、名教师、全国优秀教师、高级教师、学科带头人等年龄不限。
+优秀应届毕业生：本科及以上学历，各科成绩优良，获得一等奖学金或优秀学生干部、优秀毕业生等称号。阳光自信，组织活动能力强，形象良好，有亲和力。英语流利者优先，有海外留学经历者优先；***、***院校毕业生优先；有教师资格证者优先。
+应聘流程：
+1.将个人的简历、身份证、学历、学位、职称等相关证件电子版按要求发送至hr@xjtlu-as.com邮箱，邮件主题为：姓名+应聘岗位；
+2.材料审核与面试通知；
+3.面试与笔试；
+4.签约实习或试用。
+
+年龄要求：
+25-47岁
+
+职能类别：
+数学老师",教育/培训院校,教育,"数学教育专业, 教师资格证, 市级以上评优课, 优秀班主任, 模联, 机器人辅导, 特级教师, 名教师, 全国优秀教师, 高级教师, 学科带头人, 一等奖学金, 优秀学生干部, 优秀毕业生, 英语流利, 海外留学经历",（***、数学教育专业；优秀在职教师：；45周岁以下；本科以上学历；热爱教育；品德高尚；身体健康；具备相应学段的教师资格证。；具有优秀的教学业绩；市级以上评优课获得者、优秀班主任以及具有各种专项特长（如模联、机器人辅导）的优先。；优秀应届毕业生：；本科及以上学历；各科成绩优良；获得一等奖学金或优秀学生干部、优秀毕业生等称号。；组织活动能力强；形象良好；有亲和力。；***、***院校毕业生优先；有教师资格证者优先。；姓名+应聘岗位；25-47岁,0.1,6000.0,8000.0,7000.0,"['数学教育专业', '教师资格证', '市级以上评优课', '优秀班主任', '模联', '机器人辅导', '特级教师', '名教师', '全国优秀教师', '高级教师', '学科带头人', '一等奖学金', '优秀学生干部', '优秀毕业生', '英语流利', '海外留学经历']","数学教育专业,教师资格证,市级以上评优课,优秀班主任,模联,机器人辅导,特级教师,名教师,全国优秀教师,高级教师,学科带头人,一等奖学金,优秀学生干部,优秀毕业生,英语流利,海外留学经历",2
+171653749,招生老师,院校,5.0,10.0,千,月,1年,大专,在线,2026-04-18 04:10:23,2026-04-18 12:41:54,辉县市清泽教育咨询有限公司,新乡,,"职位详情：
+【工作内容】
+- 负责学校/机构的招生咨询与客户接待，解答家长及学生的疑问；
+- 通过电话、面谈等方式开展招生宣传，拓展潜在生源；
+- 协助制定并执行招生计划，完成招生指标；
+- 维护和跟进学员信息，提升客户满意度与续费率。
+【任职要求】
+- 大专及以上学历，教育类、市场营销或相关专业优先；
+- 具备良好的沟通能力与亲和力，有招生或销售经验者优先；
+- 热爱教育行业，责任心强，能适应一定的工作压力；
+- 具备团队合作精神，能够积极配合其他部门完成招生任务。
+
+职能类别：
+招生老师",教育/院校,教育,给你一个平台,大专及以上学历；教育类、市场营销或相关专业优先；热爱教育行业；责任心强,0.1,5000.0,10000.0,7500.0,['给你一个平台'],给你一个平台,2
+171670850,一对一家教,培训机构,2.0,4.0,千,月,无需经验,本科,在线,2026-04-18 00:26:33,2026-04-18 12:48:49,重庆惇学教育咨询有限公司,重庆,弹性工作,"职位详情：
+本地兼职家教，直接去家里上课。课时费60-500/小时，一次课1-4个小时，日结，周结，月结，有经验优先安排。没有经验的也可以，提升自我能力职位亮点:
+灵活的工作时间，根据自己的日程安排积累宝贵教学经验，提升个人职业竞争力与学生共同成长，享受教育的乐趣职位要求:
+拥有本科及以上学历或者在读大学生热爱教育事业，具备良好的师德师风
+具备良好的沟通能力和耐心，能够因材施教
+有责任心，能够按时完成教学计划并反馈学生学习情况
+
+职能类别：
+家教",教育/培训院校,教育,家教,本地兼职家教；周结；提升自我能力职位亮点:；提升个人职业竞争力与学生共同成长；享受教育的乐趣职位要求:；拥有本科及以上学历或者在读大学生热爱教育事业；具备良好的师德师风；有责任心,0.0,2000.0,4000.0,3000.0,['家教'],家教,2
+171662879,中法课程项目负责人 & 首席法语教师(J10614),学术/科研,2.0,2.5,万,月,5年,本科,在线,2026-04-17 15:10:18,2026-04-18 13:44:25,上海阿德科特进修学校有限公司,上海·松江区,,"职位详情：
+工作职责:
+一、 项目管理与学术领导
+1. 课程设计与优化：主导中法融合课程的研发与落地，确保课程符合法国教育部/国际法语项目标准及中国本土教育要求。
+2. 团队管理与协调：领导和管理中法籍教师团队，组织教研会议、听课评课及教师职业发展培训。
+3. 质量监控与评估：建立项目评估体系，跟踪学生语言及学术进步，出具项目报告。
+4. 家校与外部沟通：作为项目发言人，定期组织家长工作坊，解释课程理念；维护与法国文化协会、领事馆教育处或姐妹学校的合作关系。
+5. 升学支持：指导学生赴法国/法语区国家（如加拿大、瑞士）的升学路径规划，撰写推荐信。
+
+二、 法语一线教学
+1. 授课：承担每周16~20节法语课程（涵盖听说读写、法语文学或学科法语），面向高中阶段学生。
+2. 差异化教学：针对法语母语/近母语/零基础分层教学，采用行动教学法（如项目式学习、翻转课堂）。
+3. 资源建设：主导开发符合国际语境的法语教学资源、校本教材及评估工具。
+4. 文化浸润：组织法语角、法国文化节、戏剧比赛等课外活动，营造沉浸式语言环境。
+任职资格:
+1. 基本资质：
+a) 本科及以上学历，法语、语言学、教育学或相关专业。
+b) 法语水平达到 C2（母语或近母语水平），英语流利（可作为工作语言）。
+c) 持有教师资格证（如中国教师资格证、TESOL、FLE或所在国同等资质）。
+2. 经验要求：
+a) 5年以上法语一线教学经验，其中至少 2年国际学校或法语项目体系教学经验。
+b) 2年以上课程领导、学科组长或项目协调经验。
+c) 熟悉 DELF/DALF、法国高中毕业会考（Baccalauréat）或 IGCSE/IB法语等国际测评体系者优先。
+3. 核心能力：
+a) 具备卓越的中法跨文化沟通与冲突解决能力。
+b) 有课程研发及中外教团队管理实战案例。
+c) 热爱青少年教育，对学生严格而富有同理心，课堂充满感染力。
+
+职能类别：
+其他外语老师",其他行业,教育,"教师资格证, 法语, 项目管理, 授课, 团队管理, 国际学校, 教研会议, 课程理念, 外部沟通, 项目协调",1. 基本资质：；a) 本科及以上学历；法语、语言学、教育学或相关专业。；2. 经验要求：；c) 熟悉 DELF/DALF、法国高中毕业会考（Baccalauréat）或 IGCSE/IB法语等国际测评体系者优先。；3. 核心能力：；a) 具备卓越的中法跨文化沟通与冲突解决能力。；b) 有课程研发及中外教团队管理实战案例。；c) 热爱青少年教育；对学生严格而富有同理心；课堂充满感染力。,0.5,20000.0,25000.0,22500.0,"['教师资格证', '法语', '项目管理', '授课', '团队管理', '国际学校', '教研会议', '课程理念', '外部沟通', '项目协调']","教师资格证,法语,项目管理,授课,团队管理,国际学校,教研会议,课程理念,外部沟通,项目协调",1
+170396706,高中语文教师,教育/培训/院校,4.0,5.0,千,月,无需经验,本科,在线,2026-04-17 14:23:16,2026-04-18 14:06:19,云南新华电脑职业技能培训学校有限公司,昆明·西山区,"五险一金,餐饮补贴,节日福利,带薪年假","职位详情：
+【工作内容】
+- 负责高中语文课程的教学工作，制定并实施教学计划；
+- 关注学生学习情况，进行个性化辅导与学业评估；
+- 参与学校组织的教研活动，提升教学水平与专业能力；
+- 协助班主任开展班级管理工作，营造良好的学习氛围。
+【任职要求】
+- 本科及以上学历，汉语言文学或相关专业优先；
+- 具备良好的沟通能力和责任心，热爱教育事业；
+- 有较强的语言表达能力和课堂掌控能力；
+- 不限工作经验，欢迎应届毕业生或转行人员投递。
+
+职能类别：
+高中教师",教育/培训院校,教育,"教学, 教研, 教育, 教学计划, 汉语言文学, 高中语文, 课堂掌控, 班级管理",本科及以上学历；汉语言文学或相关专业优先；热爱教育事业；欢迎应届毕业生或转行人员投递。,0.0,4000.0,5000.0,4500.0,"['教学', '教研', '教育', '教学计划', '汉语言文学', '高中语文', '课堂掌控', '班级管理']","教学,教研,教育,教学计划,汉语言文学,高中语文,课堂掌控,班级管理",2
+171667597,门店销售导购,学术/科研,3.0,6.0,千,月,1年及以上,中技/中专,在线,2026-04-17 17:13:10,2026-04-18 15:23:01,东莞市科珈创新科技有限公司,东莞·黄江镇,"节日福利,五险,提成","职位详情：
+岗位职责：
+1.接待顾客咨询，了解客户需求促成销售。
+2.负责店铺细节及货品管理。
+3.卖场区域卫生清洁。
+4.完成公司的销售目标。
+
+
+任职要求：
+1.正直诚信，热爱销售工作。
+2.具备1年以上导购经验（有数码配件行业门店销售经验优先）。
+3.良好的语言表达能，沟通能力，能够有效的处理顾客反馈的各类问题。
+4.熟悉店铺运营流程，具备一定的数据分析能力。
+
+
+工作时间：早班：10:30-21:00 10.5个小时
+晚班：15:00-22:30 7.5个小时
+一周一换班，单休（每周二、周三调休）
+
+年龄要求：
+18-45岁
+
+职能类别：
+门店销售",其他行业,教育,"销售, 数据分析, 店铺运营, 货品管理, 导购, 接待顾客咨询, 门店销售, 顾客反馈",1.正直诚信；热爱销售工作。；一周一换班；单休（每周二、周三调休）,0.1,3000.0,6000.0,4500.0,"['销售', '数据分析', '店铺运营', '货品管理', '导购', '接待顾客咨询', '门店销售', '顾客反馈']","销售,数据分析,店铺运营,货品管理,导购,接待顾客咨询,门店销售,顾客反馈",2
+168452084,主任助理2名,教育/培训/院校,8.0,10.0,千,月,2年及以上,本科,在线,2026-04-17 18:17:09,2026-04-18 15:35:22,北京十嘉九谊管理咨询有限公司,北京·海淀区,"五险一金,项目奖金,年终奖金,专业培训,定期体检,出差补贴","职位详情：
+职责：负责日常的教学管理，组织实施教学计划，协助教学评估，保证教学质量；协助班主任安排学员在校期间的就餐、住宿，协助解决交通、就医等问题，关心学员生活，积极提供帮助；负责内、外部文书撰写、处理，相关会议的开展并做好记录；协助项目负责人完成市场开发；完成上级交付的其他工作。
+要求：本科以上学历（含本科），两年以上相关工作经验；熟悉办公软件，有较强的文字功底与沟通能力；善于沟通，勤于思考，有责任心，有服务意识。有市场经验者、有基础设施相关经验者、有影视从业相关经验者优先
+
+职能类别：
+经理助理/秘书",教育/培训院校,教育,"本科以上学历, 两年以上相关工作经验, 熟悉办公软件, 有较强的文字功底, 沟通能力, 市场经验, 基础设施相关经验, 影视从业相关经验",本科以上学历（含本科）；善于沟通；勤于思考；有责任心；有服务意识。,0.2,8000.0,10000.0,9000.0,"['本科以上学历', '两年以上相关工作经验', '熟悉办公软件', '有较强的文字功底', '沟通能力', '市场经验', '基础设施相关经验', '影视从业相关经验']","本科以上学历,两年以上相关工作经验,熟悉办公软件,有较强的文字功底,沟通能力,市场经验,基础设施相关经验,影视从业相关经验",2
+152884511,双休日小学各科老师,培训机构,500.0,500.0,元,天,1-3年,本科,在线,2026-04-18 11:34:58,2026-04-18 15:45:24,上海求实索思教育科技有限公司,上海·浦东新区,,"职位详情：
+岗位职责：
+1.负责小学各科（语文、数学、英语）的教学工作，各科老师对应各自学科；
+2.日常备课，撰写教案，展示教学效果，完成教学任务，进行教研活动。
+3.定期与家长沟通交流;
+4.检查批改作业，为学生答疑解惑。
+5.教学主管分配的教学任务任职资格；
+6.每天上课四节，薪资对应课程（按照课时多少结算）；
+认知要求
+1.学前教育或小学各学科对应专业毕业或实习生，发音标准，口语流利；
+2.较强的亲和力.活力和课堂调动能力，富于创新精神。
+3.踏实.认真，有耐心与责任心，能吃苦，具有良好的职业形象。
+4.有培训行业教师工作经验者优先，有教师资格证优先。
+5.具体薪资按照实际上课数量计算；
+
+年龄要求：
+23岁以上
+
+职能类别：
+小学教师",教育/培训院校,教育,"教学, 语文教学, 汉语言",认知要求；口语流利；2.较强的亲和力.活力和课堂调动能力；富于创新精神。；3.踏实.认真；有耐心与责任心；具有良好的职业形象。；有教师资格证优先。,0.2,15000.0,15000.0,15000.0,"['教学', '语文教学', '汉语言']","教学,语文教学,汉语言",2

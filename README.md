@@ -19,7 +19,9 @@ The workflow includes the following stages:
 
 
 The data analysis package is now located in `analysis/`, and the dashboard is located in `career_mind_dashboard/`.
+
 This project uses cleaned job posting data to derive cluster profiles, salary curves, and skill importance.
+
 Job data is cleaned, salary fields are normalized, experience is quantified, and high-correlation skills are merged for modeling.
 
 ![Analysis flow](images/analysis-flow.png)

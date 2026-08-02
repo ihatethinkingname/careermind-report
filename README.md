@@ -94,6 +94,9 @@ streamlit run app.py --server.port 8888 --server.headless true
 The dashboard loads processed data from `career_mind_dashboard/data/` if present. If those files are missing, it can also fall back to processed outputs from `analysis/`, `analysis/clustered_output/`, and `analysis/regression_output/`.
 
 ![Project cover](images/dashboard-cover.png)
+
+Project was mainly built in Chinese; you may need to use browser translation.
+![Project cover-translated](images/dashboard-cover-translated.png)
 ---
 
 ## 4. Static report location

@@ -18,20 +18,18 @@ The workflow includes the following stages:
 5. Interactive visualization with Streamlit and static report generation
 
 
-
 The data analysis package is now located in `analysis/`, and the dashboard is located in `career_mind_dashboard/`.
+This project uses cleaned job posting data to derive cluster profiles, salary curves, and skill importance.
+Job data is cleaned, salary fields are normalized, experience is quantified, and high-correlation skills are merged for modeling.
 
 ![Analysis flow](images/analysis-flow.png)
 
-This project uses cleaned job posting data to derive cluster profiles, salary curves, and skill importance.
+![Data cleaning](images/data-cleaning.png)
+
+![Job_clustering](images/job_clustering.png)
 
 ![Salary analysis](images/salary-analysis.png)
 
-Job data is cleaned, salary fields are normalized, experience is quantified, and high-correlation skills are merged for modeling.
-
-![Data cleaning](images/data-cleaning.png)
-
-![Streamlit UI](images/streamlit-ui.png)
 ---
 
 ## 2. Folder structure
